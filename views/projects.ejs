@@ -2,7 +2,12 @@
 
     <%- include partials/main_nav.ejs %>
 
-    <div class="project_list_card">
+    <div class="projects section">
+      <button class="beautiful-button"  onclick="document.getElementById('project_text').style.display='block'" >Projects</button>
+
+
+
+      <div id="project_text" style="display:none">
         <div class="project_deatails button">
           <h3 class="project_heading">Personal Portfolio</h3>
           <p>This is my Portfoilo and contains all of my professional details and achievement. This website is
@@ -23,31 +28,29 @@
         <div class="info_pill">
           <p>CSS</p>
         </div>
-      </div>
-    
-      <div class="project_list_card">
-        <div class="project_deatails button">
+      
+
+      
           <h3 class="project_heading">Abroad Education</h3>
           <p>This is a mobile applications that is made by me which is developed to the new students who wants to study
             abroad.</p>
-        </div>
+        
         <div class="info_pill">
           <p>JavaScript</p>
         </div>
-      </div>
-    </div>
-
+        </div>
+        </div>
 
         </div>
         <div class="my_toolkit section">
-            <h2 class="section_heading">Toolkit</h2>
-            <div class="my_toolkit_deatils">
-                <img src="/assets/images/svg/bxl-css3.svg" alt="">
-                <img src="/assets/images/svg/bxl-github.svg" alt="">
-                <img src="/assets/images/svg/bxl-html5.svg" alt="">
-                <img src="/assets/images/svg/bxl-javascript.svg" alt="">
-                
-            </div>
+          <button class="beautiful-button"  onclick="document.getElementById('toolkit_text').style.display='block'" >ToolKit</button>
+          <div  id="toolkit_text" style="display:none">
+            <img src="/assets/images/svg/bxl-css3.svg" alt="">
+            <img src="/assets/images/svg/bxl-github.svg" alt="">
+            <img src="/assets/images/svg/bxl-html5.svg" alt="">
+            <img src="/assets/images/svg/bxl-javascript.svg" alt="">
+    
+          </div>
 
         
 
