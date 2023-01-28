@@ -218,15 +218,27 @@ a:hover {
     gap: 10em;
 }
 
+.main_section h2 {
+    color:#FCA311; 
+}
+.nms {
+    color:#FCA311; 
+}
+
+
+
 .my_background_details p {
     margin-bottom: 1.2em;
     margin-right: 4em;
     font-size: 15px;
+    font-style: italic;
+    
 }
 
 .section_heading {
     width: 30%;
     text-transform: uppercase;
+    color: #FCA311;
 }
 
 .button {
@@ -272,14 +284,16 @@ a:hover {
     margin-top: 0.8em;
     display: inline-block;
     padding: 0.4em 0.8em;
-    border: 1.5px solid #ee6c4d;
-    border-radius: 4px;
+    border: 1.5px solid #FCA311;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
 }
 
 .info_pill p {
     font-size: 0.7em;
     font-weight: 800;
-    color: #ee6c4d;
+    color: #FCA311;
 }
 
 .project_list_card {
@@ -288,6 +302,7 @@ a:hover {
 
 .project_heading {
     margin-bottom: 10px;
+    color: #FCA311;
 }
 
 
@@ -325,46 +340,12 @@ textarea {
     resize: none;
 }
 
-.beautiful-button{
-    background-color: rgb(255, 0, 21); 
-    color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    font-size: 16px;
-    padding-right: 30px;
-    margin-bottom: 40px;
-}
 
-.beautiful-button:hover {
-    background-color: darkblue;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .beautiful-button:hover:after {
-    content: "";
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid white;
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  }
-  
-  .beautiful-button.close-text:before{
-    content: "Close";
-}
-  
-  
   
     
 
     body {
-        background-color: #12daec;
+        background-color: #E5E5E5;
         }
  
   
