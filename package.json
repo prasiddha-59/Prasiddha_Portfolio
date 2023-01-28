@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": " node server.js"
+    "start": "node ./server.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -14,7 +14,7 @@
     "morgan": "~1.9.1"
   },
   "description": "This is Prasiddha Khadka Personal Portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "author": "Prasiddha Khadka",
   "license": "ISC"
